@@ -131,7 +131,7 @@ button:hover{
     height: 100vh;
     width: 80vw;
     top: -50%;
-    left: -780%;
+    left: -900%;
     background-color: #569fff;
     z-index: 1;
 }
