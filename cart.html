@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cart | My Store</title>
+</head>
+<body style="background-color: #fcd8a9;">
+
+    <!-- Hamburger -->
+
+    <div class="hamburger_div">
+        <input type="checkbox" class="checkbox">
+        <div class="three_lines">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+
+        <div class="left_side_menu">
+            <div class="hamburger_img">
+                <img src="./Assets/Sign_In_Page.jpg" alt="">
+            </div>
+            <div class="hamburger_links">
+                <a href="home.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="cart.html">Cart</a>
+                <a href="cart.html">Orders</a>
+                <a href="index.html">Sign Out</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hamburger Ends -->
+
+
+    <div class="title_heading_cart">
+        <h1>My Cart</h1>
+    </div>
+
+    <h2 class="items_in_cart">Items in your cart</h2>
+
+    <!-- Cart items -->
+
+    <div class="cart_feed_header_box">
+        <div class="cart_feed_header_box_1">
+            <img src="./Assets/P-2.jpg" alt="">
+        </div>
+        <div class="cart_feed_header_box_2">
+            <h3>Camera</h3>
+            <p>&#8377; 10000 / P</p>
+        </div>
+        <div class="cart_feed_header_box_3">
+            <div class="cart_value_box">
+                <div class="minus">-</div>
+                <div class="number">2</div>
+                <div class="plus">+</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart_feed_header_box">
+        <div class="cart_feed_header_box_1">
+            <img src="./Assets/P-4.jpg" alt="">
+        </div>
+        <div class="cart_feed_header_box_2">
+            <h3>Watches</h3>
+            <p>&#8377; 4000 / P</p>
+        </div>
+        <div class="cart_feed_header_box_3">
+            <div class="cart_value_box">
+                <div class="minus">-</div>
+                <div class="number">3</div>
+                <div class="plus">+</div>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="window.location.href='index.html'">Checkout</button>
+
+
+    <!-- Bottom Menu -->
+    <div class="bottom_menu">
+        <div class="bottom_menu_div">
+
+            <div class="bottom_menu_box" onclick="window.location.href='home.html'">
+                <i class="fa-solid fa-house fa-fw"></i>
+                <p>Home</p>
+            </div>
+
+            <div class="bottom_menu_box" onclick="window.location.href='products.html'">
+                <i class="fa-brands fa-product-hunt fa-fw"></i>
+                <p>Prods</p>
+            </div>
+
+
+            <div class="bottom_menu_box" onclick="window.location.href='cart.html'">
+                <i class="fa-solid fa-cart-shopping fa-fw"></i>
+                <p>Cart</p>
+            </div>
+
+            <div class="bottom_menu_box" onclick="window.location.href='profile.html'">
+                <i class="fa-solid fa-user fa-fw"></i>
+                <p>Profile</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

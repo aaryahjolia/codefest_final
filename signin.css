@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login_page{
+    background-color: #fcd8a9;
+    height: 100vh;
+}
+.signin_image{
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin_image img{
+    width: 60%;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.input{
+    width: 80%;
+    margin: 1rem auto;
+    display: block;
+    padding: .4rem 1rem;
+    border-radius: .3rem;
+    border: 1px solid black;
+}
+
+.remember_me{
+    /* border: 1px solid red; */
+    width: 87%;
+    margin: 0 auto;
+}
+
+.forget_password_div{
+    text-align: right;
+    width: 87%;
+    margin: .5rem auto;
+}
+
+.sign_in{
+    display: block;
+    border: 1px solid black;
+    width: 87%;
+    padding: .4rem 1rem;
+    border-radius: .3rem;
+    margin: 1rem auto;
+    background-color: #ff5d65;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.sign_in:hover{
+    background-color: rgb(91, 91, 255);
+}
+
+.social_icons{
+    /* border: 1px solid red; */
+    width: 87%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social_icons_box{
+    width: 60%;
+    margin: 1rem auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_icon_box_inner{
+    border: 1px solid black;
+    border-radius: .2rem;
+    cursor: pointer;
+    background-color: #ff5d65;
+    color: white;
+}
+
+.social_icon_box_inner i{
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    border-bottom: 1px solid blue;
+}

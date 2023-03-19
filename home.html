@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home | My Store</title>
+</head>
+
+<body style="background-color: #fcd8a9;">
+
+    <!-- Hamburger -->
+
+    <div class="hamburger_div">
+        <input type="checkbox" class="checkbox">
+        <div class="three_lines">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+
+        <div class="left_side_menu">
+            <div class="hamburger_img">
+                <img src="./Assets/Sign_In_Page.jpg" alt="">
+            </div>
+            <div class="hamburger_links">
+                <a href="home.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="cart.html">Cart</a>
+                <a href="cart.html">Orders</a>
+                <a href="index.html">Sign Out</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hamburger Ends -->
+
+
+
+
+    <div class="title_heading">
+        <h1>My Store</h1>
+    </div>
+    <h2 class="home_page_name">Hi, 1377</h2>
+    <div class="home_page_carousel">
+        <div class="img">
+            <img src="./Assets/P-1.jpg" alt="" id="img">
+        </div>
+        <div class="dots">
+            <div class="dot dot-1 active_carousel" id="dot-1"></div>
+            <div class="dot dot-2" id="dot-2"></div>
+            <div class="dot dot-3" id="dot-3"></div>
+        </div>
+    </div>
+
+    <div class="article_feed_header">
+        <div class="article_feed_header_heading">
+            <h3>Article feed header</h3>
+            <a href="#">Load More</a>
+        </div>
+        <div class="article_feed_header_box">
+            <div class="article_feed_header_box_1">
+                <img src="./Assets/P-2.jpg" alt="">
+            </div>
+            <div class="article_feed_header_box_2">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, accusamus.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="article_feed_header_box">
+            <div class="article_feed_header_box_1">
+                <img src="./Assets/P-3.jpg" alt="">
+            </div>
+            <div class="article_feed_header_box_2">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, accusamus.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sale header -->
+    <div class="sale_header">
+        <h3>Sale Header</h3>
+        <div class="saler_header_img">
+            <img src="./Assets/P-5.jpg" alt="">
+            <p class="sale_header_overlay">20% off</p> </img>
+        </div>
+        <p>20% off on Iphones</p>
+    </div>
+
+
+    <!-- Bottom Menu -->
+    <div class="bottom_menu">
+        <div class="bottom_menu_div">
+
+            <div class="bottom_menu_box" onclick="window.location.href='home.html'">
+                <i class="fa-solid fa-house fa-fw"></i>
+                <p>Home</p>
+            </div>
+
+            <div class="bottom_menu_box" onclick="window.location.href='products.html'">
+                <i class="fa-brands fa-product-hunt fa-fw"></i>
+                <p>Prods</p>
+            </div>
+
+
+            <div class="bottom_menu_box" onclick="window.location.href='cart.html'">
+                <i class="fa-solid fa-cart-shopping fa-fw"></i>
+                <p>Cart</p>
+            </div>
+
+            <div class="bottom_menu_box" onclick="window.location.href='profile.html'">
+                <i class="fa-solid fa-user fa-fw"></i>
+                <p>Profile</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
